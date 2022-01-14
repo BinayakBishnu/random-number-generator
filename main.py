@@ -1,3 +1,5 @@
-import generate_rand
+import generator
 
-generate_rand.generate_rand()
+rand_num = generator.generate_rand(4, 26)
+
+print(rand_num)
